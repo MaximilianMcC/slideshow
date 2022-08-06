@@ -17,8 +17,9 @@ class SlideshowElement extends HTMLElement {
     constructor() {
         super();
 
-        // Add the buttons and image
+        // Add the buttons and image HTML and CSS
         this.innerHTML += `<img id="slideshowImage" src="" alt="Loading..."><button id="slideshowLeft">⬅️</button><button id="slideshowRight">➡️</button>`;
+        document.head.innerHTML += `<style type="text/css">slide-show { position: relative; display: inline-block; } slide-show button { position: absolute; top: calc(50% - 1em); height: auto; font-size: 1.5em; cursor: pointer; z-index: 999999; background-color: transparent; border: none; } slide-show #slideshowLeft { left: 0; } slide-show #slideshowRight { right: 0; }</style>`;
 
         // Get all of the slideshow data
         let index = 0;
