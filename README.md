@@ -1,28 +1,35 @@
-# **Slideshow**
-Create a simple JavaScript slideshow. This script will allow people to make a slideshow with only using HTML. All of the work is done automatically using JavaScript. There isn't any NPM stuff used here. All you need to do is download the script or link to the script from somewhere and you can use it in your website.
+# **🖼️ JS Slideshow Generator**
+This is an extremely slideshow generator made in JS. To use the generator all you need to do is add in the script and write a few lines of HTML😎
 
-## 🤓 Example usage
-Import the script at the bottom of your HTML:
-```html
-<script src="./slideshow.js"></script>
-```
+## **😬 Features**
+- You can have as many images as you want
+- Everything is HTML
+- Acts as a normal image
+- Don't need to worry about NPM
+- Works with all image file types
+- You can have as many different slideshow elements as you want
 
-Here is an example of making a slideshow with 3 images:
-```html
-<slide-show>
-    <slide-show-data>
-        <img src="mountains.png" alt="Some mountains">
-        <img src="beach.png" alt="A beach">
-        <img src="city.png" alt="The city">
-    </slide-show-data>
-</slide-show>
-``` 
-
-## 😤 Planned features:
-Here is a short list of features that will be added to the project.
+## **🤢 Potential features**
+There are no promisees that I'm going to add these features💀
 - Text that shows the current index
 - Custom button text
 - Save slideshow index in localstorage
 
-## 🥱 Help and stuff
-If you need some help, want to report a bug, or request a feature then the best place to ask is on Discord. `MTMB#5530` I will normally respond in a few minutes.
+## **🤓 Example usage**
+If you need any more help then there is an `example.html` file included in this repo with an example.
+```html
+<!-- Make a slideshow with 3 images -->
+<slide-show>
+    <slide-show-data>
+        <img src="house.png" alt="My house">
+        <img src="shrek.jpg" alt="Shrek">
+        <img src="meme.gif" alt="meme stolen from Discord">
+    </slide-show-data>
+</slide-show>
+
+<!-- Import the slideshow script -->
+<script src="./slideshow.js"></script>
+```
+
+## **🥱 Help and support stuff**
+If you encounter a problem when using this then the best place to get help is my Discord: `MTMB#5530`. If you want to request a feature or report a bug then you can also Discord me.
