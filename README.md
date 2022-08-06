@@ -18,5 +18,10 @@ Here is an example of making a slideshow with 3 images:
 </slide-show>
 ```
 
+## 😤 Planned features:
+Here is a short list of features that will be added to the project.
+- Text that shows the current index
+- Custom button text
+
 ## 🥱 Help and stuff
 If you need some help, want to report a bug, or request a feature then the best place to ask is on Discord. `MTMB#5530` I will normally respond in a few minutes.
