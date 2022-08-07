@@ -14,6 +14,8 @@ There are no promisees that I'm going to add these features💀
 - Text that shows the current index
 - Custom button text
 - Save slideshow index in localstorage
+- Add dots at the bottom that you can click on to show index
+- Animation when changing slides
 
 ## **🤓 Example usage**
 If you need any more help then there is an `example.html` file included in this repo with an example.
